@@ -61,7 +61,11 @@ const HomeScreen: React.FC = (props:any) => {return (
 
 The implementation of tabs is very similar to the implementation of stack navigation .In fact it is even simpler. Since, usually, moving between tabs is taken care of you do not need to specify which tab you should go to and usually tabs do not require params to be passed among them.
 
+Install `yarn add @react-navigation/bottom-tabs` 
+
 ```ts
+
+import {createBottomTabNavigator} from '@react-navigation/bottom-tabs'
 const TabsScreen = () => {
   const TabsNavigation = createBottomTabNavigator();
   return (
