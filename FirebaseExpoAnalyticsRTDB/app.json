@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "FirebaseExpo",
+    "slug": "FirebaseExpo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.fakecompany.mybestapp",
+      "googleServicesFile": "./GoogleService-Info.plist"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "config": {
+        "firebase": {
+          "apiKey": "AIzaSyCUqYBuhGwqrCRy2BAb2bvwEaqjKxBdjTw",
+          "authDomain": "mybestapp-5c7aa.firebaseapp.com",
+          "projectId": "mybestapp-5c7aa",
+          "storageBucket": "mybestapp-5c7aa.appspot.com",
+          "messagingSenderId": "53768294809",
+          "appId": "1:53768294809:web:e9fcaa76bc435b44490308",
+          "measurementId": "G-6EQM4E329Z"
+        }
+      }
+    }
+  }
+}
