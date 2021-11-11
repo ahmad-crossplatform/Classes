@@ -246,24 +246,3 @@ export const fbInit = () => {
   enableIndexedDbPersistence(getFirestore()); //Add this line
 };
 ```
-
-<style type="text/css">
-    img {
-        height: 200px;
-        border-style: solid;
-        border-width:2px;
-        border-color:black;
-
-    }
-    .note{
-        color: yellow;
-        background:black;
-        font-weight:bold;
-        text-align: center;
-        border-style: solid;
-        border-width:1px;
-        padding:5px;
-        border-color:red;
-
-    }
-</style>
