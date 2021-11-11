@@ -14,7 +14,7 @@ Here we will create an app and will call it `My Best App`
 4. Select the country, accept the terms and press `Create project`
 5. Start by adding apps to firebase that represents your app for different platforms. I will go with iOS first and then web .
 
-   ![](.\images\2021-11-10-14-53-22.png)
+   ![](./images/2021-11-10-14-53-22.png)
 
 6. Click Web and put your app's name
 
