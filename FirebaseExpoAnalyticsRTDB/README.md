@@ -18,7 +18,7 @@ Here we will create an app and will call it `My Best App`
 
 6. Click Web and put your app's name
 
-   ![](.\images\2021-11-10-14-54-48.png)
+   ![](./images/2021-11-10-14-54-48.png)
 
    If you want your webApp to be hosted in firebase then you can check that checkbox. Otherwise you are good to go .
 
@@ -26,7 +26,7 @@ Here we will create an app and will call it `My Best App`
 8. Now that you are at console. click `+ Add app` to add our iOS app
 9. Fill needed info for your ios app , you will need to decide what is your bundle id will be at this level.
 
-   ![](.\images\2021-11-10-15-11-50.png)
+   ![](./images/2021-11-10-15-11-50.png)
 
 10. Keep press next till you go back to your console. We will use the config file later.
 
@@ -50,7 +50,7 @@ expo init MyBestApp
 
 2. Go back to firebase console. click project settings
 
-   ![](.\images\2021-11-10-15-48-59.png)
+   ![](./images/2021-11-10-15-48-59.png)
 
 3. Go to your ios App from the `Your apps` section. Download `GoogleService-info.plist` and place it at the root folder of your expo project.
 
@@ -68,7 +68,7 @@ Pay attention that the `bundleIdentifier` should be the exact BundleId of your i
 5. Create a file `firebase.ts`
 6. On your project settings in firebase console. Find the config for your web app. Then copy the content from `Config` And place it inside `firebase.ts`
 
-   ![](.\images\2021-11-10-15-57-43.png)
+   ![](./images/2021-11-10-15-57-43.png)
 
 7. If we are going to make an app for Web too, then lets head to `app.json` and try to find `web` and add the following
 
