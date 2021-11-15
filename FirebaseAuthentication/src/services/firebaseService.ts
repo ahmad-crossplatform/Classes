@@ -8,12 +8,7 @@ import {
   signInWithEmailAndPassword,
   UserCredential,
 } from "firebase/auth";
-import { Delay } from "../helpers/delay";
 
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyBg6zgUu4bx_9cEcpX8lsZUr19aMO5GXlc",
   authDomain: "ithogskolanauthentication.firebaseapp.com",
@@ -37,6 +32,7 @@ export const initFirebase = (callback: (_: boolean) => void) => {
     }
   });
 };
+
 export const fbRegister = async (
   firstName: string,
   lastName: string,
