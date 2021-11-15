@@ -2,7 +2,7 @@
 
 ## Intro
 
-Firebase provided authentication service out of the box. With firebase sdk you can register your customers and let them sign in to the app using email/password , SMS , or social media.
+Firebase provides authentication service out of the box. With firebase sdk you can register your customers and let them sign in to the app using email/password , SMS , or social media.
 
 Make sure to enable authentication from firebase console before registering users.
 
